@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    <title>
+        Website
+    </title>
+    <style>
+        .item1 {grid-area: Hello;}
+        .item2{
+            grid-area: there;
+        }
+        .item3{
+            grid-area: This;
+        }
+        .item4{
+            grid-area: is;
+        }
+        .item5{
+            grid-area: an;
+        }
+        .grid-container1{
+            display: grid;
+            grid-template-areas: 
+            'hello hello hello hello hello hello'              
+            'there there there there This This This This'              
+            'is is is an an an';           
+            gap:10px;
+            padding: 50px;
+        }
+        .grid-container1>div{
+            border: 5px solid black;
+            font-size: larger;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+    </head>
+    <body>
+<br>
+        <script>
+            console.log("Alok Chutiya")
+        </script>
+        <div class="grid-container1">
+            <div class="grid-item1">Hello</div>
+            <div class="grid-item2">there</div>
+            <div class="grid-item3">This</div>
+            <div class="grid-item4">is</div>
+            <div class="grid-item5">an</div>
+        </div>
+    </body>
+<html>

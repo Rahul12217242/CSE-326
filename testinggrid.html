@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { 
+    grid-area: It; 
+}
+.item2 { 
+    grid-area: was; 
+}
+.item3 { 
+    grid-area: so; 
+}
+.item4 { 
+    grid-area: not; 
+}
+.item5 { 
+    grid-area: easy; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'It It It It It It'
+  'was was was not not not'
+  'so so so easy easy easy';
+}
+
+.grid-container> div {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: larger;
+  border: 10px solid black;
+}
+</style>
+</head>
+<body>
+    <script>
+        alert("Just trying out Javascript")
+        console.log("It is fun, I won't lie")
+        window.write(9+9+9)
+    </script>
+    <div class="grid-container">
+        <div class="item1">It</div>
+        <div class="item2">was</div>
+        <div class="item3">so</div>  
+        <div class="item4">not</div>
+        <div class="item5">easy</div>
+      </div>
+      
+      </body>
+      </html>

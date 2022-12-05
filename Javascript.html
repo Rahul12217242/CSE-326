@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        body{
+            font-size: xx-large;
+            font-weight: bolder;
+            font-family: Verdana;
+            color: gold;
+            background-color: chocolate;
+            border: 2cm;
+            padding: 10px;
+            border-style: double;
+            border-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo">This is a Paragraph</p>
+    <center>
+    <script>
+
+        function myFunction(){
+            document.getElementById("demo").innerHTML="Paragraph changed";
+
+        }
+        
+        // alert("About to explore Javascript Functions")
+        // console.log("It is fun, I won't lie")
+        // document.write(9+9+9*9*9*9*9*9*9)
+        // document.getElementById("demo").innerHTML="My First Javascript"
+        var i=5
+        for(var i=0;i<10;i++)
+        {
+            document.write(i)
+
+        }
+        document.write(i)
+        
+    </script>
+    <button type="button" onclick="myFunction()">Try it!</button>
+    </center>
+</body>
+</html>
